@@ -91,6 +91,8 @@ npm run build
 
 ## 项目结构
 
+```text
+
 src/
 ├── App.vue                 # 主应用组件
 ├── main.js                 # 应用入口
@@ -111,6 +113,7 @@ src/
 │   ├── shadingUtils.js      # 着色工具
 │   └── hexViewerUtils.js    # 十六进制工具
 └── style.css                # 全局样式
+```
 
 ## License
 
