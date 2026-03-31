@@ -180,12 +180,14 @@ onMounted(() => {
   window.addEventListener('mousemove', onResize)
   window.addEventListener('mouseup', stopResize)
 
-  // Add drag and drop support
   const container = document.getElementById('app')
   if (container) {
     container.addEventListener('dragover', onDragOver)
     container.addEventListener('drop', onDrop)
   }
+
+  glbUrl.value = './cone4.glb'
+  loadFromUrl()
 })
 
 onUnmounted(() => {
